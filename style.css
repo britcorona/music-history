@@ -1,134 +1,55 @@
-html, body {
-/*  height: 100%;*/
-  min-width: 100px;
-  max-width: 870px;
-/*  margin: 0;
-  padding: 0;*/
-}
-
-html {
-
-}
-
 body {
-/*    vertical-align: right;*/
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 100px 100px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/*Nav Bar and both div boxes*/
-
-nav {
+nav ul {
   border: 2px solid black;
   background-color: #ffb4b0;
-  max-width: 90%;
-  text-align: left;
-  padding-right: 50px;
-  padding-left: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 10px;
 }
 
 nav ul li {
   display: inline;
 }
 
-.box1, .box2 {
-    float: none;
-    padding: 20px;
-    width: 50%;
-    vertical-align: top;
+#boxes {
+  width: 100%;
+  margin: 2.5% 2.5% 2.5% 0;
 }
-.container {
-    display: table;
-    width: 100%;
+
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
 }
 
 .box1 {
   background-color: #4DD7FA;
-  display: table-cell;
+  border: 2px solid black;
+  min-width: 10%;
+  padding: 15px 50px 0 10px;
 }
-/*border: 2px solid black;
-  float: left;
-  width: 20%;
-  margin-top: 10px;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 15px;*/
+
+.middle-box {
+  border: 10px solid white;
+  text-align: center;
+}
 
 .box2 {
   background-color: #FEFAC0;
-  display: table-cell;
-}
-/*  padding: 1em;
-  border: solid;
+  min-width: 70%;
+  padding-left: 20px;
   border: 2px solid black;
-  float: right;
-  width: 73%;
-  margin-top: 10px;
-  padding-left: 15px;
-  padding-bottom: 20px;*/
+}
 
-/*1st Section*/
-
-.bar-name {
-  display: block;
+.box2 h2 {
+  color: #785616;
 }
 
 .slide-bar {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.artist {
   display: block;
-}
-
-.options1 {
-  border: 2px solid black;
-  min-width: 60%;
-  font-size: .9em;
-  margin-top: 10px;
-}
-
-.options2 {
-  border: 2px solid black;
-  min-width: 60%;
-  font-size: .9em;
-  margin-top: 10px;
-}
-
-.album {
-  display: block;
-  margin-top: 15px;
-}
-
-.genre {
-  display: block;
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
-
-input[type="checkbox"] {
-  margin-bottom: 10px;
-}
-
-.button {
-  text-align: center;
-  border: 2px solid black;
-  font-size: 1em;
-  border-radius: 3px;
-  padding: 0 30px;
-  background-color: lightgrey;
-  display: block;
-  margin-left: 30px;
-  margin-top: 5px;
-}
-
-/*2nd Section*/
-
-#song-name {
-  color: #785616;
-  font-size: 1.2em;
-}
-
-#art-name {
-  font-size: .9em;
 }
