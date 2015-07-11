@@ -53,3 +53,13 @@ nav ul li {
 .slide-bar {
   display: block;
 }
+
+input[type="button"] {
+  width: 50%;
+  margin: 5px 50px;
+  font-size: 2em;
+}
+
+h3 {
+  color: #785616;
+}
