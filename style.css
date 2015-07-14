@@ -44,14 +44,14 @@ nav ul li {
   text-align: center;
 }
 
-.box2 {
+#box2 {
   background-color: #FEFAC0;
   min-width: 65%;
   padding-left: 10px;
   border: 2px solid black;
 }
 
-.box2 h2 {
+#song-name {
   color: #785616;
 }
 
