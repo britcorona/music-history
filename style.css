@@ -5,15 +5,14 @@ body {
 }
 
 nav {
-  /*width: 75%;*/
   flex: 1 100%;
+  min-width: 200px;
 }
 
 nav ul {
   border: 2px solid black;
   background-color: #ffb4b0;
   list-style: none;
-  margin: 0;
   padding: 10px 10px;
 }
 
@@ -21,9 +20,7 @@ nav ul li {
   display: inline;
 }
 
-#boxes {
-  margin: 2.5% 2.5% 2.5% 0;
-}
+/*All Flex Code*/
 
 .flexbox {
   display: -webkit-flex;
@@ -31,27 +28,23 @@ nav ul li {
   display: flex;
   overflow: hidden;
   flex-flow: row wrap;
+  padding: 20px 100px;
 }
+
+.flexbox > header, 
+.flexbox > footer { 
+  flex: 1 100%; 
+}
+
+/*Left Blue Box*/
 
 .box1 {
   background-color: #4DD7FA;
   border: 2px solid black;
-  min-width: 5%;
-  padding: 15px 50px 0 10px;
+  min-width: 200px;
+  padding: 15px 0 0 10px;
   flex: 1;
-}
-
-#box2 {
-  background-color: #FEFAC0;
-  min-width: 65%;
-  padding-left: 10px;
-  border: 2px solid black;
-  font-size: 1.2em;
-  flex: 3;
-}
-
-#song-name {
-  color: #785616;
+  margin-right: 15px;
 }
 
 .slide-bar {
@@ -64,6 +57,34 @@ input[type="button"] {
   font-size: 2em;
 }
 
+/*Right Yellow Box*/
+
+#box2 {
+  background-color: #FEFAC0;
+  min-width: 200px;
+  padding-left: 10px;
+  border: 2px solid black;
+  font-size: 1.2em;
+  flex: 3;
+}
+
+#box2 :nth-child(2n+0) {
+  background-color: #FFF5EE;
+}
+
+#box2 :nth-child(2n+1) {
+  background-color: #F5FFFA;
+}
+
+#box2 :nth-child(1) {
+  font-weight: bold;
+}
+
+#song-name {
+  color: #785616;
+}
+
 /*h3 {
   color: #785616;
 }*/
+
