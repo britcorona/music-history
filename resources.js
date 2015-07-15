@@ -10,10 +10,7 @@ songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little
 
 for ( i = 0; i < songs.length; i++) {
 	songs[i]=songs[i].replace(/>/g, '-');
-	songs[i]=songs[i].replace('*', '');
-	songs[i]=songs[i].replace('(', '');
-	songs[i]=songs[i].replace('@', '');
-	songs[i]=songs[i].replace('!', '') ;
+	songs[i]=songs[i].replace(/[*(@!]/g, '');
 	songs[i]=songs[i].replace('- by', '|');
 	songs[i]=songs[i].replace('on the album', '|');
 	element.innerHTML += '<p id="song-name">' + songs[i] + '</p>';
