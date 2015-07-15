@@ -1,11 +1,12 @@
 body {
-  padding: 100px 100px;
+  /*padding: 100px 100px;*/
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: .9em;
 }
 
 nav {
-  width: 75%;
+  /*width: 75%;*/
+  flex: 1 100%;
 }
 
 nav ul {
@@ -21,7 +22,6 @@ nav ul li {
 }
 
 #boxes {
-  width: 75%;
   margin: 2.5% 2.5% 2.5% 0;
 }
 
@@ -30,6 +30,7 @@ nav ul li {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  flex-flow: row wrap;
 }
 
 .box1 {
@@ -37,11 +38,7 @@ nav ul li {
   border: 2px solid black;
   min-width: 5%;
   padding: 15px 50px 0 10px;
-}
-
-.middle-box {
-  border: 10px solid white;
-  text-align: center;
+  flex: 1;
 }
 
 #box2 {
@@ -50,6 +47,7 @@ nav ul li {
   padding-left: 10px;
   border: 2px solid black;
   font-size: 1.2em;
+  flex: 3;
 }
 
 #song-name {
