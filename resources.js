@@ -14,10 +14,7 @@ songs.unshift("Faded > by Zhu on the album The Nightday");
 for ( i = 0; i < songs.length; i++) {
 	songs[i]=songs[i].replace(/>/g, '-');
 	songs[i]=songs[i].replace(/[*(@!]/g, '');
-	songs[i]=songs[i].replace('- by', '</h5><p>');
+	songs[i]=songs[i].replace('- by', '</h4><p>');
 	songs[i]=songs[i].replace('on the album', '|');
-	element.innerHTML += '<div class="song-name"><h5>' + songs[i] + ' | Genre' + '</p>' + '</div>';
+	element.innerHTML += '<div class="song-name"><h4>' + songs[i] + ' | Genre' + '</p>' + '</div>';
 }
-
-
-// {Song name} by {Artist} on the album {Album}
