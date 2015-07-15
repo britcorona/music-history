@@ -8,6 +8,9 @@ songs[songs.length] = "Welco(me to the Jungle > by Guns & Roses on the album App
 songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little Pill";
 
 
+songs.push("Bad Blood > by Taylor Swift on the album 1989");
+songs.unshift("Faded > by Zhu on the album The Nightday");
+
 for ( i = 0; i < songs.length; i++) {
 	songs[i]=songs[i].replace(/>/g, '-');
 	songs[i]=songs[i].replace(/[*(@!]/g, '');

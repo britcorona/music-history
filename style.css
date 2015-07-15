@@ -49,6 +49,7 @@ nav ul li {
   min-width: 65%;
   padding-left: 10px;
   border: 2px solid black;
+  font-size: 1.2em;
 }
 
 #song-name {
@@ -65,6 +66,6 @@ input[type="button"] {
   font-size: 2em;
 }
 
-h3 {
+/*h3 {
   color: #785616;
-}
+}*/
