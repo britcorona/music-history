@@ -1,6 +1,5 @@
 body {
-  /*padding: 100px 100px;*/
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: .9em;
 }
 
@@ -64,15 +63,14 @@ input[type="button"] {
   min-width: 200px;
   padding-left: 10px;
   border: 2px solid black;
-  font-size: 1.2em;
   flex: 3;
 }
 
-#box2 :nth-child(2n+0) {
+#box2 .song-name:nth-child(2n+0) {
   background-color: #FFF5EE;
 }
 
-#box2 :nth-child(2n+1) {
+#box2 .song-name:nth-child(2n+1) {
   background-color: #F5FFFA;
 }
 
@@ -80,11 +78,12 @@ input[type="button"] {
   font-weight: bold;
 }
 
-#song-name {
+.song-name {
   color: #785616;
 }
 
-/*h3 {
-  color: #785616;
-}*/
+/*Footer*/
 
+footer h5 {
+  font-weight: lighter;
+}
