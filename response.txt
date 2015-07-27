@@ -1,0 +1,44 @@
+{
+	"songs": [
+	  {
+	  	"name": "Legs",
+	  	"album": {
+	  		"name": "Eliminator",
+	  		"genre": "Rock"
+	  	},
+	  	"artist": "ZZ Top"
+	  },
+	  {
+	  	"name": "The Logical Song",
+	  	"album": {
+	  		"name": "Breakfast in America",
+	  		"genre": "Rock"
+	  	},
+	  	"artist": "Supertramp"
+	  },
+	  {
+	  	"name": "Another Brick in the Wall",
+	  	"album" {
+	  		"name": "The Wall",
+	  		"genre": "Rock"
+	  	},
+	  	"artist": "Pink Floyd"
+	  },
+	  {
+	  "name": "Welcome to the Jungle",
+	  "album": {
+	  	"name": "Appetite for Destruction",
+	  	"genre": "Rock"
+	  },
+	  "artist": "Guns & Roses"
+	  },
+	  {
+	  	"name": "Ironic",
+	  	"album": {
+	  		"name: Jagged Little Pill",
+	  		"genre": "Rock"
+	  	},
+	  	"artist": "Alanis Morissette"
+	  },
+	]
+}
