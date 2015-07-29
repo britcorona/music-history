@@ -93,6 +93,11 @@ input[type="button"] {
   padding-left: 10px;
 }
 
+#more {
+  width: 10%;
+  float: right;
+}
+
 footer h5 {
   font-weight: lighter;
 }
