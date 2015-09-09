@@ -9,12 +9,13 @@ $(document).ready(function() {
 		   var songName = data.songs[i].name;
 		   var songArtist = data.songs[i].artist;
 		   var songAlbum = data.songs[i].album;
-		   var songsText = '<h3 class="song-name">' + songName + '</h3>' + '<p class="song-name">' + " " + songArtist + " | " + songAlbum + "</p>";
+		   var songsText = '<div class="song-name">' + "<h3>" + songName + '</h3>' + '<p>' + songArtist
+		    + " | " + songAlbum + "</p>" + '<button id="deleteButton">Delete</button>' + "</div>";
 		   $("#more").before(songsText);
  		}
 	})
 
-		$('#box2').click(function() {
+		$('#more').click(function() {
 		  $(this).slideDown();
 		
 
@@ -27,7 +28,8 @@ $(document).ready(function() {
 			   var songName = data.songs[i].name;
 			   var songArtist = data.songs[i].artist;
 			   var songAlbum = data.songs[i].album;
-			   var songsText = '<h3 class="song-name">' + songName + '</h3>' + '<p class="song-name">' + " " + songArtist + " | " + songAlbum + "</p>";
+			   var songsText = '<div class="song-name">' + "<h3>" + songName + '</h3>' + "<p>" + songArtist
+			    + " | " + songAlbum + "</p>" + '<button id="deleteButton">Delete</button>' + "</div>";
 			   $("#more").before(songsText);
 			}
 		})

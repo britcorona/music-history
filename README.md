@@ -1,1 +1,5 @@
-# music-history
+# NSS First Music-History
+
+### Goal
+
+Create 
